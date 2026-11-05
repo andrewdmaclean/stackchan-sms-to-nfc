@@ -1,0 +1,11 @@
+{
+  "include": ["$(MODDABLE)/examples/manifest_mod.json"],
+  "modules": {
+    "*": ["./mod", "./controller", "./http", "./look-around", "./text-me-screen", "./qr-decoder"],
+    "vendor/cam2qr": "./vendor/cam2qr",
+    "vendor/st25r3916": "./vendor/st25r3916",
+    "vendor/amazon-root-ca1": "./vendor/amazon-root-ca1",
+    "text-me-qr": "./text-me-qr",
+    "event-config": "./config"
+  }
+}

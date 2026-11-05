@@ -1,0 +1,4 @@
+# Generated: by npm run deploy (config.js holds the device token) and npm run build.
+config.js
+text-me-qr.js
+vendor/cam2qr.js

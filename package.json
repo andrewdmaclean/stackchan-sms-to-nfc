@@ -1,0 +1,19 @@
+{
+  "name": "stackchan-sms-to-nfc",
+  "private": true,
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "setup": "node scripts/setup.cjs",
+    "deploy": "bash backend/deploy.sh",
+    "build": "node scripts/build-robot.cjs",
+    "start": "npm --prefix upstream/stack-chan/web run dev -- --host 127.0.0.1 --port 5173 --strictPort",
+    "test": "node --test tests/*.test.cjs",
+    "test:xs": "node scripts/test-qr-xs.cjs",
+    "remove": "bash backend/remove.sh"
+  },
+  "dependencies": {
+    "qrcode": "1.5.4"
+  }
+}

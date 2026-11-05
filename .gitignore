@@ -1,0 +1,7 @@
+.cache/
+.artifacts/
+.deploy/
+.env
+node_modules/
+upstream/stack-chan/
+.claude/scheduled_tasks.lock
